@@ -1,6 +1,6 @@
 package com.example.simpledagger
 
-import javax.inject.Inject
+interface Engine {
 
-class Engine @Inject constructor() {
+    fun start()
 }
